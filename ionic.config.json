@@ -1,0 +1,7 @@
+{
+  "name": "ualSeyteDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
