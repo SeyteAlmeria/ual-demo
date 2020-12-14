@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Card example
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <img src="assets/akita.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle>Raza de perro</ion-card-subtitle>
+      <ion-card-title>Akita Inu</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El Akita o Akita Inu, que se traduce como 'perro de Akita', es una raza canina originaria de Japón, donde se considera tesoro nacional. Se conoce la raza por ese nombre, ya que proviene de la prefectura de Akita, situada en el norte de Japón. Inicialmente, el Akita fue un perro de caza mayor.
+    </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <img src="assets/bichon.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle>Raza de perro</ion-card-subtitle>
+      <ion-card-title>Bichón maltés</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El bichón maltés es una raza de perro de tamaño pequeño o mediano que surgió en el Mediterráneo central, siendo Italia quien tomó el patrocinio.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="assets/husky.jpg"/>
+    <ion-card-header>
+      <ion-card-subtitle>Raza de perro</ion-card-subtitle>
+      <ion-card-title>Husky</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      El husky siberiano es una raza de perro de trabajo originaria del noreste de Siberia. Esta raza presenta un acusado parecido con el lobo.
+    </ion-card-content>
+  </ion-card>
 </ion-content>
